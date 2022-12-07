@@ -40,8 +40,8 @@ a {
   
   main {
     background-size: cover;
-    height: 92vh;
   }
+
   
   .nav-list {
     list-style: none;
@@ -268,7 +268,7 @@ a {
 
   .slider{
     margin: 0 auto;
-    width: 1000px;
+    width: 1300px;
     height: 350px;
     overflow: hidden;
 
@@ -292,12 +292,12 @@ a {
 
   .slide img{
     width: 100%;
-    height: 350px;
+    height: 550px;
   }
 
   .manual-navigation{
     position: absolute;
-    width: 1000px;
+    width: 1300px;
     display: flex;
     justify-content: center;
   }
@@ -344,7 +344,7 @@ a {
 
   .navigation-auto{
     position: absolute;
-    width: 1000px;
+    width: 1300px;
     margin-top: 400px;
     display: flex;
     justify-content: center;
@@ -370,3 +370,104 @@ a {
     background-color: rgb(74, 74, 167);
   }
   /*SLIDER*/
+
+
+  .divisoria{
+    padding: 5%;
+  }
+
+  /*SLIDER CARDS BOOKS*/
+
+  .txtMangas{
+    background-color: rgb(21, 21, 77);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-top: 40px;
+    width: 1300px;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  .container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(74, 74, 167, 0.5);
+    /* max-width: 1120px; */
+    margin-left: 15%;
+    border-radius: 10px;
+    margin-right: 15%;
+  }
+
+  .slide-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card{
+    position: relative;
+    background-color: rgb(74, 74, 167);
+    border-radius: 8px;
+    margin: 30px;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px rgb(21, 21, 77);
+  }
+
+  .card .image-box{
+    height: 400px;
+    width: 350px;
+
+  }
+
+  .card .image-box img{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0 0 ;
+  }
+
+  .card .item-details{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+  }
+
+  .item-details .name{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+  }
+
+  .item-details .valor{
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .btn-comprar{
+    background-color: rgb(45, 45, 119);
+    font-weight: 500;
+    font-size: 17px;
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+  }
+  .btn-comprar:hover{
+    cursor: pointer;
+  }
+  /*SLIDER CARDS BOOKS*/
